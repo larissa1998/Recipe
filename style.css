@@ -1,0 +1,162 @@
+#background {
+  background-color: #F3E5D8;
+}
+
+hr {
+  width: 700px;
+  background: hsl(30, 18%, 87%);
+  border: none;
+  height: 2px;
+  margin: 32px auto;
+}
+
+.image {
+  text-align: center;
+}
+
+.image img{
+  border-radius: 12px;
+  width: 700px;
+  height: auto;
+  margin-top: 40px
+}
+
+.introduction {
+  width: 700px;
+  margin: auto;
+}
+
+.introduction h1 {
+  font: 500 36px/1.25 "Young Serif", sans-serif;
+  color:hsl(24, 5%, 18%);
+}
+
+.introduction p {
+  font: 400 1rem/1.5 "Outfit", sans-serif;
+  width: 64ch;
+}
+
+.preparation {
+  width: 700px;
+  margin: 40px auto;
+  background-color: #fdf3fa;
+  border-radius: 12px;
+  padding-top: 4px;
+}
+
+.preparation h2 {
+  font: 600 18px/0rem "Outfit", sans-serif;
+  padding: 20px 20px 4px 20px;
+  color: hsl(332, 51%, 32%);
+}
+
+.preparation ul {
+  font-weight: 400;
+  font-family: "Outfit";
+  color: hsl(24, 5%, 18%);
+  padding-bottom: 20px;
+}
+
+.ingredients {
+  width: 700px;
+  margin: auto;
+}
+
+.ingredients h2 {
+  color: hsl(30, 10%, 34%);
+  font: 600 1.5rem/0rem "Outfit", sans-serif;
+  padding: 0 0 10px 0;
+}
+
+.ingredients ul {
+  font-weight: 400;
+  font-family: "Outfit";
+  color: hsl(24, 5%, 18%);
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
+}
+
+.ingredients li {
+  line-height: 2rem;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.instructions {
+  width: 700px;
+  margin: auto;
+}
+
+.instructions h2 {
+  color: hsl(30, 10%, 34%);
+  font: 600 1.5rem/0rem "Outfit", sans-serif;
+  padding: 0 0 10px 0;
+}
+
+.instructions ol {
+  font-weight: 400;
+  font-family: "Outfit";
+  color: hsl(24, 5%, 18%);
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
+}
+
+.instructions li {
+  line-height: 1.75rem;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.instructions ol strong {
+  color: hsl(24, 5%, 18%);
+}
+
+.nutrition {
+  width: 700px;
+  margin: auto;
+}
+
+.nutrition h2 {
+  color: hsl(30, 10%, 34%);
+  font: 600 1.5rem/0rem "Outfit", sans-serif;
+  padding: 0 0 20px 0;
+}
+
+.nutrition p {
+  color: hsl(30, 10%, 34%);
+  font: 400 1rem/0rem "Outfit", sans-serif;
+  padding: 0;
+}
+
+.nutrition th {
+  display: none;
+}
+
+.nutrition table {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.nutrition td {
+  color: hsl(30, 10%, 34%);
+  font-size: 18px;
+  padding: 12px 0;
+}
+
+.nutrition td:last-child {
+  text-align: right;
+  padding-left: 0;
+}
+
+.nutrition tr:not(:last-child) td {
+  border-bottom: 1px solid #ececec;
+}
+
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+}
