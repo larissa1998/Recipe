@@ -1,0 +1,17 @@
+/* Global */
+@import "./global.css";
+
+/* Introduction */
+@import "./introduction.css";
+
+/* Preparation */
+@import "./preparation.css";
+
+/* Ingredients */
+@import "./ingredients.css";
+
+/* Instructions */
+@import "./instructions.css";
+
+/* Nutrition */
+@import "./nutrition.css";
